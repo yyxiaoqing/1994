@@ -8,7 +8,7 @@ on:
   schedule:
      - cron: '*/15 * * * *'
   watch:
-    types: started
+    types: dyjsb
 
 jobs:
   build:
