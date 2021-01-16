@@ -25,10 +25,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: yyxiaoqing/Actions
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
+           repository: yyxiaoqing/Actions
           node-version: 12.x
       - name: npm install
         if: env.YOUTH_HEADER
