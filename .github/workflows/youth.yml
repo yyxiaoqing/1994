@@ -23,7 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository:Sunert/Scripts
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -35,7 +34,7 @@ jobs:
       - name: '运行 【中青看点】'
         if: env.YOUTH_HEADER
         run: |
-          node Task/youth.js
+          node youth.js
         env:
           YOUTH_NOTIFY_CONTROL: ${{ secrets.YOUTH_NOTIFY_CONTROL }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
