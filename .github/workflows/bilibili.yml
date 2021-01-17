@@ -7,7 +7,7 @@ name: Bilibili
 
 on:
    push:
-     branches: main
+     branches: master
    gollum:
    workflow_dispatch:
    schedule:
@@ -27,7 +27,7 @@ jobs:
     - name: Cache Gradle packages
       uses: actions/cache@v2
       with:
-        path: ~/.gradle/caches
+        path: ~/.bilibili/gradle/caches
         key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
         restore-keys: ${{ runner.os }}-gradle
     - name: Build with Gradle
