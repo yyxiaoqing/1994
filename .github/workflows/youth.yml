@@ -22,8 +22,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          repository: yyxiaoqing/Actions
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -31,11 +29,11 @@ jobs:
       - name: npm install
         if: env.YOUTH_HEADER
         run: |
-          npm install 
+          npm install
       - name: '运行 【中青看点】'
         if: env.YOUTH_HEADER
         run: |
-          node youth.js
+          node Task/youth.js
         env:
           YOUTH_NOTIFY_CONTROL: ${{ secrets.YOUTH_NOTIFY_CONTROL }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
