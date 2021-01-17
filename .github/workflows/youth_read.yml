@@ -21,8 +21,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-        with:
-          repository:Sunert/Scripts
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -34,27 +32,27 @@ jobs:
       - name: '运行 【中青看点自动阅读一】'
         if: env.YOUTH_READ
         run: |
-          node Task/Youth_Read.js
+          node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ }}
 
       - name: '运行 【中青看点自动阅读二】'
         if: env.YOUTH_READ2
         run: |
-          node Task/Youth_Read.js
+          node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ2 }}
           
       - name: '运行 【中青看点自动阅读三】'
         if: env.YOUTH_READ3
         run: |
-          node Task/Youth_Read.js
+          node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ3 }}
           
       - name: '运行 【中青看点自动阅读四】'
         if: env.YOUTH_READ4
         run: |
-          node Task/Youth_Read.js
+          node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ4 }}
