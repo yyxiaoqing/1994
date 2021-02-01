@@ -29,7 +29,7 @@ hostname = bububao.duoshoutuan.com,
 
 
 const $ = new Env('步步寶')
-let notice = 'PHPSESSID=cqt7ugh2mup3kf6m1uo6slk8c4'
+let notice = ''
 //let CookieVal = $.getdata('bbb_ck')
 let CookieVal = process.env.BBBCK
 
