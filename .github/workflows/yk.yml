@@ -1,0 +1,28 @@
+name: 一刻视频
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "*/30 * * * *"
+    watch:
+        types: [started]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        if: github.event.repository.owner.id == github.event.sender.id
+        steps:
+            - uses: actions/checkout@v1
+            - name: Use Node.js 10.x
+              uses: actions/setup-node@v1
+              with:
+                  node-version: 10.x
+            - name: npm install
+              run: |
+                  npm install
+            - name: "运行【yk】"
+              run: |
+                  node yk.js
+              env:
+                  YKCOOKIEVAL: ${{ secrets.YKCOOKIEVAL }}
+                  YKBODYVAL: ${{ secrets.YKBODYVAL }}
