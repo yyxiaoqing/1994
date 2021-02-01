@@ -23,5 +23,4 @@ jobs:
             - name: "运行【步步宝】"
               run: |
                   node bbb.js
-              env:
-                  BBBCK: ${{ secrets.BBBCK }}
+          
