@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/yyxiaoqing/Actions/issues"
   },
-  "homepage": "https://github.com/yyxiaoqing/Actionss/#readme",
+  "homepage": "https://github.com/yyxiaoqing/Actionss#readme",
   "dependencies": {
     "crypto-js": "^4.0.0",
     "got": "^11.7.0",
