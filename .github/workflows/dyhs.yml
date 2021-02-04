@@ -16,7 +16,8 @@ jobs:
         HSBODY: ${{ secrets.HSBODY }}
         PLAYURL: ${{ secrets.PLAYURL }}    
         PLAYHEADER: ${{ secrets.PLAYHEADER }}
-        PLAYBODY: ${{ secrets.PLAYBODY }}    
+        PLAYBODY: ${{ secrets.PLAYBODY }}
+        TZ: Asia/shanghai    
     steps:
       - name: Checkout
         uses: actions/checkout@v1
