@@ -21,8 +21,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-        with:
-          repository: ZhiYi-N/script
+        
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -33,7 +32,7 @@ jobs:
       - name: '运行 【dyhs】'
         if: env.HSHEADER
         run: |
-          node scripts/huoshan.js
+          node dyhs.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
