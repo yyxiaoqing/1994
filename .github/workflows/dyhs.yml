@@ -37,7 +37,7 @@ jobs:
           npm install
       - name: '运行 【火山】'
         run: |
-          node huoshan.js
+          node dyhs.js
         env:
           HSURL: ${{ secrets.HSURL }}
           HSHEADER: ${{ secrets.HSHEADER }}
