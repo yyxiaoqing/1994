@@ -2,8 +2,8 @@
             "id": "yyxiaoqing.app.sub",
             "name": "suger 应用订阅",
             "author": "@suger",
-            "icon": "https://s3.ax1x.com/2021/02/17/ygLAIA.jpg",
-            "repo": "https://github.com/yyxiaoqing/1994/edit/master/QuantumultX",
+            "icon": "https://github.com/yyxiaoqing/1994/blob/master/icon/tx_waifu2x_2x_2n_jpg.png",
+            "repo": "https://github.com/yyxiaoqing/1994/edit/master",
             "apps": [{
             "id": "dkd",
             "name": "多看点",
