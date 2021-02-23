@@ -7,7 +7,7 @@
             "apps": [{
             "id": "dkd",
             "name": "多看点",
-            "keys": ["dkdurl", "dkdhd", "dkdbody", "dkdtxurl", "dkdtxhd", "dkdtxbody"],
+            "keys": ["dkdurl", "dkdhd", "dkdbody", "dkdtxurl", "dkdtxhd", "dkdtxbody" , "dkdur2", "dkdhd2", "dkdbody2", "dkdtxurl2", "dkdtxhd2", "dkdtxbody2"],
             "author": "@suger",
             "settings": [{
             "id": "dkdsetting",
