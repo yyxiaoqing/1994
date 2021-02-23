@@ -1,7 +1,7 @@
 {
             "id": "yyxiaoqing.app.sub",
             "name": "suger 应用订阅",
-            "author": "@feizao",
+            "author": "@suger",
             "icon": "https://s3.ax1x.com/2021/02/17/ygLAIA.jpg",
             "repo": "https://github.com/age174/-/edit/main",
             "apps": [{
