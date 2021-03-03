@@ -31,9 +31,9 @@
                     "desc": "0不提现，可设置 0 1 3 5 15 "
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.js",
-            "icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.png"],
-            "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.js"
+            "repo": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/duokandian.js",
+            "icons": ["https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/duokandian.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.png"],
+            "script": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/duokandian.js"
         },
         {
             "id": "zhima",
@@ -55,9 +55,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.js",
-            "icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.png"],
-            "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.js"
+            "repo": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.js",
+            "icons": ["https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.png"],
+            "script": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.js"
         },
         {
             "id": "QQread",
@@ -79,9 +79,9 @@
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.js",
-            "icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.png"],
-            "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.js"
+            "repo": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/QQread.js",
+            "icons": ["https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/QQread.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.png"],
+            "script": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/QQread.js"
         },
         {
             "id": "bububao",
@@ -110,13 +110,12 @@
                     "desc": "0不提现，可设置 0 0.3 50 100 200 888  设置888由上至下循环提现 "
                 }
             ],
-            "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/bububao.js",
-            "icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/bububao.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/bububao.png"],
-            "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/bububao.js"
-        }
-    ]
-},
-{
+            "repo": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/bububao.js",
+            "icons": ["https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/bububao.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/bububao.png"],
+            "script": "https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/bububao.js"
+            
+        },      
+        {
             "id": "yuedongzu",
             "name": "悦动族APP",
             "keys": ["yuedongzutoken", "yuedongzutoken2", "yuedongzutoken3", "yuedongzutoken4", "yuedongzutoken5", "yuedongzutoken6", "yuedongzutoken7", "yuedongzutoken8", "yuedongzutoken9", "yuedongzutoken10", "yuedongzutoken11", "yuedongzutoken12", "yuedongzutoken13", "yuedongzutoken14", "yuedongzutoken15", "yuedongzutoken16", "yuedongzutoken17", "yuedongzutoken18", "yuedongzutoken19", "yuedongzutoken20"],
