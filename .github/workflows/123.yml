@@ -1,4 +1,4 @@
-name: zhiyi-sync
+name: ziye-sync
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-ZhiYi-N-script
+    types: sync-6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
 jobs:
   repo-sync:
     env:
@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync ZhiYi-N-script
+      - name: sync 6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
