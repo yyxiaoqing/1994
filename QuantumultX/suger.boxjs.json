@@ -117,7 +117,7 @@
         {
 		    "id": "sy_youth_read",
 		    "name": "中青自动阅读",
-		    "keys": ["zqgetbody_body","zqgetbody_body1"],
+		    "keys": ["zqgetbody_body","zqgetbody_body1","zqgetbody_body2"],
 		    "settings": [
 	       {
                     "id": "YOUNTH_READ_Notify",
